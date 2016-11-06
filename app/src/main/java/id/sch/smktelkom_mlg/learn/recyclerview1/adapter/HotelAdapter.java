@@ -20,6 +20,7 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
 
     ArrayList<Hotel> hotelList;
 
+
     public HotelAdapter(ArrayList<Hotel> hotelList) {
         this.hotelList = hotelList;
     }
@@ -61,4 +62,5 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
         }
     }
+
 }
